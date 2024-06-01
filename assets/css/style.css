@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #f0f0f0;
+    border-color: #aaa;
+}
+
+.hero img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.HealthTopics, .Section02, .ImageGallery {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.HealthTopics img, .Section02 img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.HealthTopics {
+    border: 2px solid #4CAF50;
+    background-color: #E8F5E9;
+}
+
+.Section02 {
+    border: 2px solid #FF9800;
+    background-color: #FFF3E0;
+    text-align: center;
+}
+
+.ImageGallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ImageGallery img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+}
